@@ -1,6 +1,9 @@
-# Why
-Website for http://why.clevertech.biz
-HTML/CSS based off of http://getskeleton.com
+# Why Clevertech
 
-# Development/Deploying
-To deploy/update, just push to the `gh-pages` the branch.
+This is just a static HTML page.
+
+The only file that was compiled (manually) was base.css, which is normalize.css + skeleton.css concatenated and minimized.
+
+If you want to change some CSS, change it in `css/style.css`.
+
+There's some JS for the scrolling, using velocity.js, at `js/script.js`.

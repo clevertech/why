@@ -1,0 +1,245 @@
+/* Mobile-first */
+body {
+  font-weight: 300;
+  font-size: 1.7em;
+  line-height: 1.9;
+}
+
+/* .main-hero */
+.main-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #F94C00;
+  color: #FFF;
+  text-align: center;
+}
+
+.main-hero h1 {
+  font-size: 2.2rem;
+}
+
+.main-hero h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 4.8rem;
+}
+
+.main-hero a {
+  color: #232323;
+  text-decoration: none;
+}
+.main-hero a:hover {
+  color: #494A4A;
+}
+
+.main-hero .button-primary {
+  background-color: #FFF;
+  border-color: #FFF;
+  font-size: 24px;
+  line-height: 62px;
+  height: 62px;
+  font-weight: 300;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  color: #232323;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.main-hero .button-primary:hover,
+.main-hero .button-primary:focus {
+  background-color: #494A4A;
+  border-color: #494A4A;
+}
+
+.main-hero p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* .control-hero */
+.control-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.control-hero h2 {
+  text-align: center;
+}
+
+/* .learn-hero */
+.learn-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #EFEFEF;
+}
+
+.learn-hero h2 {
+  text-align: center;
+}
+
+/* .grow-hero */
+.grow-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.grow-hero h2 {
+  text-align: center;
+}
+
+/* .enjoy-hero */
+.enjoy-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #EFEFEF;
+}
+
+.enjoy-hero h2 {
+  text-align: center;
+}
+
+/* .achievements-hero */
+.achievements-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #17242C;
+  color: #FFF;
+  text-align: center;
+}
+
+.achievements-hero h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.achievements-hero a {
+  color: #F94C00;
+  text-decoration: none;
+}
+.achievements-hero a:hover {
+  color: #FFF;
+}
+
+/* .testimonials-hero */
+.testimonials-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #F94C00;
+  color: #FFF;
+  text-align: center;
+}
+
+.testimonials-hero h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.testimonials-hero .person {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.testimonials-hero .person .photo {
+  display: block;
+}
+
+.testimonials-hero .person .photo img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 250px;
+}
+
+.testimonials-hero .person blockquote {
+  text-align: center;
+}
+
+.testimonials-hero .person blockquote footer {
+  display: block;
+  font-size: .8em;
+  line-height: 1.2;
+  color: #FFF;
+  text-align: right;
+}
+.testimonials-hero .person blockquote footer:before {
+  content: "—";
+  padding-right: 5px;
+  font-size: .8em;
+  line-height: 1.2;
+  color: #FFF;
+}
+
+/* .feedback-hero */
+.feedback-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.feedback-hero h1 {
+  text-align: center;
+}
+
+.feedback-hero h2 {
+  text-align: center;
+}
+
+/* .join-hero */
+.join-hero {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: #EFEFEF;
+}
+
+.join-hero .button-primary {
+  background-color: #232323;
+  border-color: #232323;
+  font-size: 24px;
+  line-height: 62px;
+  height: 62px;
+  font-weight: 300;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.join-hero .button-primary:hover,
+.join-hero .button-primary:focus {
+  background-color: #F94C00;
+  border-color: #F94C00;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .main-hero h2 {
+    margin-top: 8rem;
+  }
+
+  .control-hero h2,
+  .learn-hero h2,
+  .grow-hero h2,
+  .enjoy-hero h2,
+  .feedback-hero h2 {
+    margin-bottom: 3rem;
+  }
+
+  .achievements-hero h1,
+  .testimonials-hero h1 {
+    margin-bottom: 6rem;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
